@@ -1,1 +1,12 @@
 Coastline contents test:
+
+First edition 15 Nov to 15 December - contents
+  1.1. Notebook 1 - Digital Earth Australia Example 
+  1.2. Notebook 2 - Digital Earth Australia Example with Pacific bounding box from RMI as a visualisation example - still needing to incorporate 
+  1.3. Notebook 3 - Xarray - trying to read the data into xarray - was not able to without the dependencies and ultimately was only able to read file names out as a list (RBT also mentioned this xarray was not an effective approach)
+  1.4. Notebook 4 - Pyfes - based on advice from RBT - I am using Pyfes from AVISO 
+(Note* these notebooks (1-4) were cleared from DEP Instance on 15 December. I missed the announcement / notificatoin email on that day and so was not aware that this work would be deleted. 
+  
+Second edition 17 December onwards - contents 
+(Note* I will just focus on the pyfes (notebook 4) and leave out background notes, context, visualisation research and dataset reading in xarray (Notebooks 1-4 from first edition that were  wiped from the DEP) 
+  2.4. Notebook 4 - Pyfes - based on advice from RBT - I am using Pyfes from AVISO
