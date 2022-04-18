@@ -11,6 +11,8 @@ from cogeo_mosaic.mosaic import MosaicJSON
 from cogeo_mosaic.backends import MosaicBackend
 import glob
 
+#sudo pip install cogeo-mosaic --pre
+
 local_path = "/home/sachin/tmp/cog"
 
 account_url = "https://deppcpublicstorage.blob.core.windows.net/output?sp=racwl&st=2022-04-03T23:17:37Z&se=2023-05-01T07:17:37Z&spr=https&sv=2020-08-04&sr=c&sig=wJkqOOZCPromubKaTzCAAY%2FvV5LJ7fIYHrbpwOJQDdk%3D"
@@ -55,6 +57,6 @@ with MosaicBackend(json_file, mosaic_def=mosaicdata) as mosaic:
 #upload mosiac json
 with open(json_file, "rb") as blob_file:
         blob_name = "/".join(["mangroves", path.basename(json_file)])
-        container_client.upload_blob(name=blob_name, data=blob_file)
+        container_client.upload_blob(name=blob_name, data=blob_file, overwrite=True)
 
 print("Finished.")
