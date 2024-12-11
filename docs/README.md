@@ -7,10 +7,6 @@ Data access information: https://digitalearthpacific.github.io/data-access/
 
 ## Elements 84
 
-Identifier
-	
-Title
-(Click to sort ascending)  
 sentinel-2-pre-c1-l2a	Sentinel-2 Pre-Collection 1 Level-2A  
 
 cop-dem-glo-30	Copernicus DEM GLO-30  
